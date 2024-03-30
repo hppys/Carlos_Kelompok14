@@ -1,0 +1,9 @@
+def main():
+    cinema = Cinema(5, 10)
+    cinema.display_seating()
+
+    while True:
+        print("1. Display seating arrangement")
+        print("2. Book a seat")
+        print("3. Exit")
+        choice = input("Enter your choice: ")

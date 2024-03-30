@@ -1,0 +1,11 @@
+        if choice == "1":
+            cinema.display_seating()
+        elif choice == "2":
+            row = int(input("Enter row number: ")) - 1
+            seat = int(input("Enter seat number: ")) - 1
+            cinema.book_seat(row, seat)
+        elif choice == "3":
+            print("Thank you for using our system. Have a great day!")
+            break
+        else:
+            print("Invalid choice. Please try again.")
